@@ -147,3 +147,20 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Django
+backend/db.sqlite3
+backend/staticfiles/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
